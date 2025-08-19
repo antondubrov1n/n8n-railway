@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
-ARG N8N_VERSION=1.106.3
-ARG CACHEBUST=1
+ARG N8N_VERSION=1.107.3
+ARG CACHEBUST=3
 
 RUN apk add --update graphicsmagick tzdata
 
